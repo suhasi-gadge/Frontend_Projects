@@ -9,7 +9,7 @@ export default function Hero(props) {
             <div className="btns-container">
                 <button onClick={handleToggleModal}>Not {name}?</button>
                 <button onClick={() => {
-                    navigator.clipboard.writeText('https://www.smoljames.com')
+                    navigator.clipboard.writeText('https://www.suhasigadge.com')
                     alert('Copied :)')
                 }} className="link-button">Copy link</button>
                 <button onClick={resetData} className="link-button">Reset data</button>

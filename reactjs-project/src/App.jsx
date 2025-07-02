@@ -10,7 +10,7 @@ import { calculateTimeLeft, getLifePercentageLived } from "./utils"
 
 
 function App() {
-  const [name, setName] = useState('James')
+  const [name, setName] = useState('Suhasi')
   const [birthDate, setBirthDate] = useState('1995-06-15')
   const [lifeExpectancy, setLifeExpectancy] = useState(80)
   const [showModal, setShowModal] = useState(false)
@@ -21,7 +21,7 @@ function App() {
   }
 
   function resetData() {
-    setName('James')
+    setName('Suhasi')
     setBirthDate('1995-06-15')
     setLifeExpectancy(80)
     localStorage.clear()
